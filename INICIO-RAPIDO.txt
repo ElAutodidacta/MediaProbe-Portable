@@ -1,0 +1,30 @@
+MEDIAPROBE PORTABLE 1.2 — INICIO RAPIDO
+=========================================
+
+WINDOWS
+1. Ejecute MediaProbe-Portable.exe.
+2. Se abrira una interfaz local en su navegador. Las pruebas funcionan sin Internet.
+3. Conecte la memoria, pulse Actualizar y verifique bien la unidad elegida.
+4. Comience con Inspeccionar sin escribir o Modo tienda (2, 3 o 5 min).
+5. En Producto indique tipo, marca, modelo, capacidad y velocidades anunciadas.
+   La busqueda web automatica encuentra referencias si hay conexion; se puede
+   desactivar. En Analizar indique las clases impresas. Compare en Resumen.
+6. Para comprobar capacidad falsa, use una unidad vacia y ejecute la prueba completa.
+7. Consulte Historial y exporte TXT, JSON y HTML. El HTML se imprime como PDF.
+
+La prueba segura no sobrescribe archivos existentes. El modo destructivo SI BORRA
+el contenido accesible y exige varias comprobaciones. Use ese modo solamente con
+permiso del propietario.
+
+LINUX
+El codigo es compatible con Linux y puede leer CID/CSD/OCR si el lector aparece
+como mmcblk. Este paquete fue construido y validado en Windows; el binario Linux
+debe compilarse en Linux con source/build_linux.sh. Consulte source/COMPILAR.md.
+
+LIMITES CLAVE
+- Un lector USB normalmente oculta el CID real de una microSD.
+- Windows no siempre expone la velocidad USB negociada.
+- Una puntuacion alta no certifica marca, garantia ni resistencia/endurance.
+- Una muestra correcta no demuestra la capacidad completa.
+- El historial queda en el equipo anfitrion, no en esta USB.
+- El modo tienda tiene una duracion objetivo; una E/S bloqueada puede tardar mas.

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv*/
+build/
+dist/
+*.spec
+.pytest_cache/
+*.sqlite*
+*.db
+*.log
+.env*
+data/
+.mediaprobe-test/
